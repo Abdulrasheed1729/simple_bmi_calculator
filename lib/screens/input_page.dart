@@ -54,7 +54,9 @@ class _InputPageState extends State<InputPage> {
                         ? kActiveCardColour
                         : kInactiveCardColour,
                     cardChild: const IconContent(
-                        icon: FontAwesomeIcons.mars, label: 'MALE'),
+                      icon: FontAwesomeIcons.mars,
+                      label: 'MALE',
+                    ),
                   ),
                 ),
                 Expanded(
